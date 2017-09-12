@@ -16,6 +16,7 @@ public class LoginModule extends BaseClass {
 		LoginPage login=new LoginPage();
 		login.SkipSignButton.click();
 		Thread.sleep(4000);
+		driver.quit();
 	}
 
 }
